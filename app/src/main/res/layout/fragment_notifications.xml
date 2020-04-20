@@ -1,20 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:paddingTop="0dp"
+    android:orientation="vertical"
+>
+
+
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="0dp"
-        android:paddingTop="0dp"
-        android:orientation="vertical">
+        android:id="@+id/fragment_container">
+    </FrameLayout>
 
+ <!--
+<fragment
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:id="@+id/listfragment"/>
 
-        <ListView
-            android:id="@+id/simpleListView"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:divider="@color/material_blue_grey_800"
-            android:dividerHeight="1dp"
-            android:layout_marginTop="0dp"
-            android:paddingTop="0dp"
-            android:footerDividersEnabled="false" />
-    </LinearLayout>
+ <ListView
+     android:id="@+id/simpleListView"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:divider="@color/colorSecondary"
+     android:dividerHeight="1dp"
+     android:layout_marginTop="0dp"
+     android:paddingTop="0dp"
+     android:footerDividersEnabled="false"
+     android:defaultFocusHighlightEnabled="true"
+     />
+-->
+ </LinearLayout>
 

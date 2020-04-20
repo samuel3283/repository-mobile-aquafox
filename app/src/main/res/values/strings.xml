@@ -11,8 +11,6 @@
     <string name="login_failed">"Login failed"</string>
 
 
-
-
     <string name="title_home">Inicio</string>
     <string name="title_dashboard">Operaciones</string>
     <string name="title_notifications">Menu</string>
@@ -20,5 +18,8 @@
     <string name="hint_email">Email</string>
     <string name="hint_password">Contraseña</string>
     <string name="login">Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
