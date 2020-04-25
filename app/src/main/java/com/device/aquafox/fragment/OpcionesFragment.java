@@ -46,7 +46,7 @@ public class OpcionesFragment extends Fragment {
         CustomAdapter customAdapter = new CustomAdapter(getActivity().getApplicationContext(), countryList, flags);
         simpleList.setAdapter(customAdapter);
 
-        
+
         simpleList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

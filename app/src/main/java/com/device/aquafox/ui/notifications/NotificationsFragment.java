@@ -27,7 +27,7 @@ public class NotificationsFragment extends Fragment {
     private NotificationsViewModel notificationsViewModel;
 
     ListView simpleList;
-    String countryList[] = {"Perfil", "China", "australia", "Salir"};
+    String countryList[] = {"Perfil", "Operaciones", "Configuraciones", "Salir"};
     int flags[] = {R.drawable.ic_dashboard_black_24dp, R.drawable.ibytes, R.drawable.ic_dashboard_black_24dp, R.drawable.ibytes};
 
 
