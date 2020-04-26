@@ -7,6 +7,8 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.ViewModelProviders;
+import androidx.navigation.Navigation;
+import androidx.navigation.fragment.NavHostFragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -60,17 +62,21 @@ public class OpcionesFragment extends Fragment {
                     //Intent i = new Intent(getActivity(), LoginActivity.class);
                     //startActivity(i);
                     System.out.println("Profile");
-                    Fragment fragmentProfile = new ProfileFragment();
+                    //Fragment fragmentProfile = new ProfileFragment();
                     //FragmentTransaction transaction =  getActivity().getSupportFragmentManager().beginTransaction();
                     //FragmentTransaction transaction =  getChildFragmentManager().beginTransaction();
 
                     //getFragmentManager().popBackStack();
 
-                    FragmentTransaction transaction = getFragmentManager().beginTransaction();
+                    Navigation.findNavController(view).navigate(R.id.action_navigation_notifications_to_profileFragment);
+                    /*
+                    FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
                     //FragmentTransaction transaction =  getChildFragmentManager().beginTransaction();
                     transaction.replace(R.id.fragment_container, fragmentProfile);
                     transaction.addToBackStack(null);
                     transaction.commit();
+                    */
+
                 }
 
 

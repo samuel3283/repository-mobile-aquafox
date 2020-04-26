@@ -51,6 +51,8 @@ public class NotificationsFragment extends Fragment {
         //FragmentTransaction transaction =  getActivity().getSupportFragmentManager().beginTransaction();
         //FragmentTransaction transaction =  getChildFragmentManager().beginTransaction();
         //FragmentTransaction transaction = getFragmentManager().beginTransaction();
+
+        /*
         OpcionesFragment fragment = new OpcionesFragment();
         System.out.println("::::::FRAGMENT NOTIFICATION:::::");
         //getFragmentManager().popBackStack();
@@ -59,6 +61,8 @@ public class NotificationsFragment extends Fragment {
         //transaction.addToBackStack(null);
         transaction.disallowAddToBackStack();
         transaction.commit();
+
+         */
 
 
         /*
